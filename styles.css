@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, freesans, sans-serif;
+}
+
+a:link, a:visited, a:active {
+  color: inherit;
+}
+/* Centers in the middle */
+.fixed-width {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* Top Bar Section */
+.top-bar {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  color: black;
+  border-bottom: 1px solid #B4B4B4;
+}
+
+.top-bar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar ul li {
+  float: left;
+  list-style: none;
+  border-right: 1px solid #B4B4B4;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 16px 13px 9px 13px;
+}
+
+.nav-news:hover {
+  box-shadow: inset -2px -22px 0px -16px #A91717;
+} /* Add webkits css3developer.com*/
+
+.nav-sport:hover {
+  box-shadow: inset -2px -22px 0px -16px #fe1;
+}  /* Add webkits css3developer.com*/
+
+.nav-weather:hover {
+  box-shadow: inset -2px -22px 0px -16px #8ce;
+}  /* Add webkits css3developer.com*/
+
+.nav-shop:hover {
+  box-shadow: inset -2px -22px 0px -16px #2897e5;
+}  /* Add webkits css3developer.com*/
+
+.nav-earth:hover {
+  box-shadow: inset -2px -22px 0px -16px #262626;
+}  /* Add webkits css3developer.com*/
+
+.nav-travel:hover {
+  box-shadow: inset -2px -22px 0px -16px #262626;
+}  /* Add webkits css3developer.com*/
+
+.nav-more:hover {
+  box-shadow: inset -2px -22px 0px -16px #262626;
+}  /* Add webkits css3developer.com*/
+
+
+/* News Bar Section */
+.news-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #BB1919;
+  color: white;
+}
+
+.news-bar p {
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+  font-size: 2.6em;
+  font-family: Century Gothic;
+  letter-spacing: 2px;
+  position: relative;
+  left: 7px;
+}
+
+
+/* Category Bar Section */
+.category-bar {
+  width: 100%;
+  height: 35px;
+  background-color: #A91717;
+  color: white;
+}
+
+.category-bar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.category-bar ul li {
+  float: left;
+  font-size: 0.9em;
+  border-right: 1px solid #BB1919;
+  padding: 3px 10px 3px 10px;
+  position: relative;
+  right: 1px;
+  top: 7px;
+}
+
+.category-bar ul li:hover {
+  box-shadow: 0px 6px 0px 0px #FFF; 
+}  /* Add webkits css3developer.com*/
+
+/* Location Bar Section */
+.location-bar {
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  color: black
+}
+
+.location-bar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.location-bar ul li {
+  float: left;
+  font-size: 0.8em;
+  padding: 3px 10px 3px 10px;
+  border-right: 1px solid #B4B4B4;
+  position: relative;
+  right: 2px;
+  top: 7px;
+ 
+}
+
+.location-bar ul li:hover { 
+box-shadow: 0 6px 0 0 #A91717;
+} /* Add webkits css3developer.com*/
+
+
+
+/* Content Section */
+.content {
+  width: 100%;
+  background-color: white;
+  color: #686868;
+  font-size: .85em;
+  position: relative;
+  left: 10px;
+}
+
+.content h1 {
+  color: #000000;
+}
+
+.content h1:hover {
+  color: #1167a8;
+}
+.content a {
+  text-decoration: none;
+}
+
+.content img {
+  float: right;
+  position: relative;
+  right: 325px;
+}
+
+.content p {
+  width: 220px;
+}
+
+#content-links {
+  width: 250px;
+  margin-top: 65px;
+  line-height: 200%;
+}
+
+.watch-listen {
+  float: right;
+  position: relative;
+  bottom: 268px;
+  left: 350px;
+  border-left: 1px solid #B4B4B4;
+  padding: 0 0 0 25px;
+  
+}
+
+.watch-listen h2 {
+  font-weight: 100;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.watch-listen img {
+  position: relative;
+  right: 5px;
+}
+
+
+/* --- IDs --- */
+
+#logo {
+  float: left;
+  padding-top: 8.5px;
+  padding: 10px 8px 2px 10px;
+  border-right: 1px solid #B4B4B4;
+}
+
+#sign-in {
+  float: left;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 10px 85px 9px 15px;
+  border-right: 1px solid #B4B4B4;
+}
+
+#sign-in:hover {
+  box-shadow: inset -2px -22px 0px -16px #1188BB;
+} /* Add webkits css3developer.com*/
+
+#more-top {
+  padding-right: 50px;
+  background-image: url("http://static.bbci.co.uk/frameworks/barlesque/3.20.1/orb/4/img/orb-sprite.gif");
+  background-repeat: no-repeat;
+  background-position: 90% 20px;
+}
+
+#more-lower {
+  border: none;
+  background-image: url("http://static.bbci.co.uk/frameworks/barlesque/3.20.1/orb/4/img/orb-sprite.gif");
+  background-repeat: no-repeat;
+  background-position:100%; 
+  
+}
+
+.arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #2f2f2f;
+}
+
+#search-box {
+  float: left;
+  width: 200px;
+  padding: 10px;
+}
+
+#search-box input {
+  padding: 5px 5px 5px 5px;
+  background-color: lightgray;
+  border: transparent;
+  background-image: url("http://nav.files.bbci.co.uk/searchbox/1.0.0-102/img/gel-icon-search-dark.svg" );
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: 10%;
+  font-weight: bold;
+  color: #333333;
+}
+
+#bold {
+  font-weight: 700;
+  font-size: 1.2em;  
+  line-height: 0.8em;
+}
+
